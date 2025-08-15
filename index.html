@@ -88,6 +88,43 @@
             </ul>
         </section>
     </div>
+    <div id="texto">
+       <p1>El morral de juan es:</p1>
+    </div>
+    <div id="color">
+    </div>
+    <footer>
+        <p id="footer-text">&copy;2025 practica con Dummy JSON API</p>
+    </footer>
+    <script> 
+
+        let morral = {
+            "tipo" : "maleta-estudiante",
+            "color" : "purple",
+            "marca" : "victorinox",
+            "tamaño" : "grande",
+            "caracteristicas" : {
+                "material": "tela gruesa",
+                "cremalleras": 4,
+                "numerobolsillos": 3
+            },
+            "contenidomorral" : [
+                {
+                    "bolsillo1": ["cuaderno",
+                    "Tablet", "termo", "cargador"
+                    ],
+                    "bolsillo2" : ["audifonos", "sombrilla", "cargadores"
+                    ],
+                    "bolsillo3":[ "monedas", "tarjetasitp"
+                    ]
+                }
+            ]   
+        }
+        console.log(morral);
+        document.getElementById("color").innerHTML = "Color: " + morral.color;
+        document.getElementById("color").style.color = morral.color;
+
+    </script>
 
     <script src="script.js"></script>
 </body>
