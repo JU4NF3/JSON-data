@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta JSON</title>
+</head>
+<body>
+    <div id="description"></div>
+
+    <script>
+        let jsonData; 
+
+        fetch('pruebas.json')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            console.log(data[0].episodes[0].scenes[2].description);
+            jsonData = data; 
+            mostrardescription(); 
+        })
+
+        function mostrardescription(){
+            if (jsonData) {
+                document.getElementById("description").innerHTML = jsonData[0].episodes[0].scenes[2].description;
+            }
+        }
+    </script>
+</body>
+</html>

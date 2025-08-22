@@ -1,0 +1,79 @@
+[
+  {
+    "id": "s1",
+    "seasonNumber": 1,
+    "description": "Este cortometraje quiere transmitir el acoso hacia una mujer mas allá de las miradas a un trasfondo psicológico, obsesivo y lleno de oscuridad.",
+    "episodes": [
+      {
+        "id": "s1e1",
+        "episodeNumber": 1,
+        "title": "Mirada Oscura",
+        "summary": "A journey of a thousand miles begins with a single step. The protagonist awakens in a strange place with no memory of how they got there, setting off a chain of events that will change their life forever.",
+        "scenes": [
+          {
+            "id": "s1e1sc1",
+            "sceneNumber": 1,
+            "location": "Ext Universidad - Noche",
+            "description": "La chica sale de la universidad, pelea con un chico y luego se va caminando hasta llegar a un restaurante en donde entra y se sienta en una mesa cerca a un baño.",
+            "actors": [
+              "Protagonista",
+              "Chico Universidad",
+              "Bar Tender"
+            ]
+          },
+          {
+            "id": "s1e1sc2",
+            "sceneNumber": 2,
+            "location": "Int. Restaurante - Noche/Tarde",
+            "description": "La chica esta sentada en la mesa, mira a un hombre viejo sentado unas mesas adelante, el hombre toma un trago de whisky mientras la ve y se acerca a ella, la chica se levanta y va hacia el baño de mujeres.",
+            "actors": [
+              "Protagonista",
+              "Hombre Viejo",
+              "Bar Tender"
+            ]
+          },
+          {
+            "sceneNumber": 3,
+            "location": "Int. Baño Mujeres - Frio",
+            "description": "La chica se mira al espejo, se lava la cara, luego una chica sale del cubículo del baño y la mira mal para luego lavarse las manos y salir por la puerta, la chica termina de secarse y sale por la puerta",
+            "actors": [
+              "Protagonista",
+              "Chica del Baño"
+            ],
+            "id": "9d818e08-dc7e-49b0-b757-ec4ee4a864dc"
+          },
+          {
+            "sceneNumber": 4,
+            "location": "Int. Restaurante - Continuo",
+            "description": "La chica ve al hombre viejo que la mira, ella se apresura hacia la salida y sale del restaurante temblorosa.",
+            "actors": [
+              "Hombre Viejo",
+              "Protagonista y Bar Tender"
+            ],
+            "id": "dc2a665d-7508-47d7-be91-b1c60dcd3e3c"
+          },
+          {
+            "sceneNumber": 5,
+            "location": "Ext. Calle - Noche",
+            "description": "La chica sale se sienta en la acera buscando su celular en su bolso y luego camina hacia la parada de bus frustrada.",
+            "actors": [
+              "Protagonista"
+            ],
+            "id": "624d4481-d086-4c9b-9faf-dc955b3b9e80"
+          },
+          {
+            "sceneNumber": 6,
+            "location": "Ext. Calle - Continuo",
+            "description": "Ella camina y mientras va hacia la parada de bus pasa por situaciones incomodas.",
+            "actors": [
+              "Protagonista",
+              "Chico con su Mascota y Chico en Bicicleta"
+            ],
+            "id": "c4b0b113-d66a-4f26-a5e8-a933695420ce"
+          }
+        ],
+        "script": "TITLE: THE PILOT\n\nFADE IN:\n\nINT. A DIMLY LIT ROOM - DAY\n\nSunlight streams through a grimy window, illuminating dust motes dancing in the air. The room is sparse: a bed, a small table, a single wooden chair.\n\nOur PROTAGONIST (30s, gender neutral, looking lost and disheveled) sits up in bed. They blink, looking around the unfamiliar room with a deep frown.\n\nPROTAGONIST\n(to themself)\nWhere... am I?\n\nThey swing their legs out of bed, finding their clothes neatly folded on the chair. As they dress, they check their pockets. Empty. No wallet, no phone, no keys.\n\nINT. CITY STREETS - DAY\n\nThe Protagonist wanders through bustling city streets. The noise is a chaotic symphony of traffic, chatter, and distant sirens. They seem overwhelmed, a ship lost at sea.\n\nThey bump into a MYSTERIOUS STRANGER (50s, sharp suit, sharper eyes).\n\nMYSTERIOUS STRANGER\nWatch where you're going.\n\nPROTAGONIST\nSorry, I... I think I'm lost.\n\nThe Stranger pauses, studying the Protagonist's face with unnerving intensity.\n\nMYSTERIOUS STRANGER\nLost? Or hiding?\n\nBefore the Protagonist can answer, the Stranger smirks and walks away, disappearing into the crowd. The Protagonist is left more confused than ever.\n\nFADE OUT."
+      }
+    ]
+  }
+]
